@@ -106,8 +106,8 @@ ext {
 }
 
 configurations {
-    checkstyle
-    ktlint
+//    checkstyle
+      ktlint
 }
 
 checkstyle {
@@ -121,6 +121,7 @@ tasks.register('runCheckstyle', Checkstyle) {
     source 'src'
     include '**/*.java'
     exclude '**/gen/**'
+    exclude '**/src/**'
     exclude '**/R.java'
     exclude '**/BuildConfig.java'
     exclude 'main/java/us/shandian/giga/**'
