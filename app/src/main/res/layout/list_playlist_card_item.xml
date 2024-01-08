@@ -69,7 +69,7 @@
         android:layout_marginTop="@dimen/spacing_nano"
         android:layout_marginEnd="@dimen/margin_small"
         android:ellipsize="end"
-        android:maxLines="2"
+        android:maxLines="4"
         android:textAppearance="?android:textAppearanceListItem"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

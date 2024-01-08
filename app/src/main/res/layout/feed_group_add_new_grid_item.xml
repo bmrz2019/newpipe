@@ -35,7 +35,7 @@
             android:layout_height="wrap_content"
             android:ellipsize="end"
             android:gravity="center"
-            android:maxLines="1"
+            android:maxLines="4"
             android:text="@string/feed_create_new_group_button_title"
             android:textAllCaps="true"
             android:textColor="?attr/colorAccent"

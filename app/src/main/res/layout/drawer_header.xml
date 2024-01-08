@@ -50,7 +50,7 @@
                 android:ellipsize="end"
                 android:gravity="start|center_vertical"
                 android:hyphenationFrequency="full"
-                android:maxLines="1"
+                android:maxLines="4"
                 android:text="@string/app_name"
                 android:textColor="@color/drawer_header_font_color"
                 android:textStyle="bold"
@@ -93,7 +93,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ellipsize="end"
-                    android:maxLines="1"
+                    android:maxLines="4"
                     android:textColor="@color/drawer_header_font_color"
                     android:textSize="@dimen/drawer_header_service_title_text_size"
                     tools:text="YouTube" />

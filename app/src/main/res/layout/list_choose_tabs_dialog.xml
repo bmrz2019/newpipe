@@ -25,7 +25,7 @@
         android:layout_marginRight="?dialogPreferredPadding"
         android:layout_toRightOf="@+id/tabIcon"
         android:ellipsize="end"
-        android:maxLines="2"
+        android:maxLines="4"
         android:textAppearance="?textAppearanceListItem"
         tools:ignore="RtlHardcoded"
         tools:text="Lorem ipsum dolor sit amet" />

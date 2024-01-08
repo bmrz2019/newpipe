@@ -21,7 +21,7 @@
         android:textColor="?attr/toolbarSearchColor"
         android:imeOptions="actionSearch|flagNoFullscreen"
         android:inputType="textFilter|textNoSuggestions"
-        android:maxLines="1"
+        android:maxLines="4"
         android:nextFocusDown="@+id/suggestions_list"
         android:theme="@style/ToolbarSearchInputTheme"
         tools:ignore="RtlHardcoded" />

@@ -33,7 +33,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:ellipsize="end"
-            android:maxLines="1"
+            android:maxLines="4"
             android:padding="10dp"
             android:text="@string/feed_create_new_group_button_title"
             android:textAllCaps="true"

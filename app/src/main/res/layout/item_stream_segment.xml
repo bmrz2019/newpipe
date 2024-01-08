@@ -40,7 +40,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
-            android:maxLines="1"
+            android:maxLines="4"
             android:textAppearance="@style/PlayQueueItemTitle"
             android:textSize="@dimen/video_item_search_title_text_size"
             tools:text="Lorem ipusum is widely used to create long sample text which is used here too" />
@@ -50,7 +50,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
-            android:maxLines="1"
+            android:maxLines="4"
             android:textAppearance="@style/PlayQueueItemSubtitle"
             android:textSize="@dimen/video_item_search_title_text_size"
 

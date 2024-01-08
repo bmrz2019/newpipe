@@ -47,7 +47,7 @@
         android:layout_alignParentTop="true"
         android:layout_toRightOf="@+id/itemThumbnailView"
         android:ellipsize="end"
-        android:maxLines="2"
+        android:maxLines="4"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textSize="@dimen/video_item_search_title_text_size"
         tools:ignore="RtlHardcoded"

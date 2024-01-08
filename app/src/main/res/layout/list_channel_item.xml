@@ -34,7 +34,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/channel_item_description_to_details_margin"
         android:ellipsize="end"
-        android:maxLines="2"
+        android:maxLines="4"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:textSize="@dimen/video_item_search_uploader_text_size"
         app:layout_constraintBottom_toTopOf="@+id/itemAdditionalDetails"

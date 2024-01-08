@@ -49,7 +49,7 @@
         android:layout_marginStart="@dimen/margin_small"
         android:layout_marginEnd="@dimen/margin_small"
         android:ellipsize="end"
-        android:maxLines="2"
+        android:maxLines="4"
         android:layout_marginTop="@dimen/margin_small"
         android:textAppearance="?textAppearanceListItem"
         app:layout_constraintEnd_toEndOf="@id/itemThumbnailView"

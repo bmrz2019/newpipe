@@ -40,7 +40,7 @@
             android:layout_toLeftOf="@+id/handle"
             android:layout_toRightOf="@+id/group_icon"
             android:ellipsize="end"
-            android:maxLines="2"
+            android:maxLines="4"
             android:textAppearance="?textAppearanceListItem"
             tools:ignore="RtlHardcoded"
             tools:text="Lorem ipsum dolor sit amet" />

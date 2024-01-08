@@ -51,7 +51,7 @@
                     android:layout_height="match_parent"
                     android:importantForAutofill="no"
                     android:inputType="textCapSentences"
-                    android:maxLines="1"
+                    android:maxLines="4"
                     tools:ignore="LabelFor,UnusedAttribute" />
 
             </com.google.android.material.textfield.TextInputLayout>
