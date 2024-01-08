@@ -63,7 +63,7 @@ public final class StateSaver {
      * @param context used to get the available cache dir
      */
     public static void init(final Context context) {
-        final File externalCacheDir = context.getExternalCacheDir();
+        final File externalCacheDir = context.getCacheDir();
         if (externalCacheDir != null) {
             cacheDirPath = externalCacheDir.getAbsolutePath();
         }

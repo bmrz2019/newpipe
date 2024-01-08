@@ -33,23 +33,6 @@ android {
     }
 
     buildTypes {
-        debug {
-            debuggable true
-
-            // suffix the app id and the app name with git branch name
-            def workingBranch = getGitWorkingBranch()
-            def normalizedWorkingBranch = workingBranch.replaceFirst("^[^A-Za-z]+", "").replaceAll("[^0-9A-Za-z]+", "")
-            if (normalizedWorkingBranch.isEmpty() || workingBranch == "master" || workingBranch == "dev") {
-                // default values when branch name could not be determined or is master or dev
-                applicationIdSuffix ".debug"
-                resValue "string", "app_name", "NewPipe Debug"
-            } else {
-                applicationIdSuffix ".debug." + normalizedWorkingBranch
-                resValue "string", "app_name", "NewPipe " + workingBranch
-                archivesBaseName = 'NewPipe_' + normalizedWorkingBranch
-            }
-        }
-
         release {
             if (System.properties.containsKey('packageSuffix')) {
                 applicationIdSuffix System.getProperty('packageSuffix')
@@ -286,9 +269,9 @@ dependencies {
 
 /** Debugging **/
     // Memory leak detection
-    debugImplementation "com.squareup.leakcanary:leakcanary-object-watcher-android:${leakCanaryVersion}"
-    debugImplementation "com.squareup.leakcanary:plumber-android:${leakCanaryVersion}"
-    debugImplementation "com.squareup.leakcanary:leakcanary-android-core:${leakCanaryVersion}"
+//    debugImplementation "com.squareup.leakcanary:leakcanary-object-watcher-android:${leakCanaryVersion}"
+//    debugImplementation "com.squareup.leakcanary:plumber-android:${leakCanaryVersion}"
+//    debugImplementation "com.squareup.leakcanary:leakcanary-android-core:${leakCanaryVersion}"
     // Debug bridge for Android
     debugImplementation "com.facebook.stetho:stetho:${stethoVersion}"
     debugImplementation "com.facebook.stetho:stetho-okhttp3:${stethoVersion}"

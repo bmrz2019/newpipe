@@ -200,7 +200,7 @@ public class PlayerDataSource {
 
     private static void instantiateCacheIfNeeded(final Context context) {
         if (cache == null) {
-            final File cacheDir = new File(context.getExternalCacheDir(), CACHE_FOLDER_NAME);
+            final File cacheDir = new File(context.getCacheDir(), CACHE_FOLDER_NAME);
             if (DEBUG) {
                 Log.d(TAG, "instantiateCacheIfNeeded: cacheDir = " + cacheDir.getAbsolutePath());
             }
